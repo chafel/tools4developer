@@ -1,4 +1,10 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Tools For Developer - 高效程序员的利器们
+
+> 工欲善其事，必先利其器！
+
+As hackers, we spend a lot of time on our computers. So it makes sense to make that experience as fluid and frictionless as possible.
+This repo combains many useful tools and concepts which may save your precious time.
+
 
 To start the slide show:
 
@@ -8,4 +14,4 @@ To start the slide show:
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+> Built with [Slidev](https://github.com/slidevjs/slidev)! Learn more about Slidev on [documentations](https://sli.dev/).
