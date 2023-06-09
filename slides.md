@@ -634,14 +634,3 @@ Follow me on Twitter:
     -webkit-background-clip: text;
 }
 </style>
-<!-- src: ./instruction.md
-时长够了就忽略
-https://send.firefox.com/
-仓库和共建？
-
-有知有行
-小苹果
-
-Dropzone
-
-vssh-->
