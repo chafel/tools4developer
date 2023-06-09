@@ -509,7 +509,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 ## Tools
-- ssh-copy-id: connect to host2 without any password
+- ssh-copy-id: connect to hosts without any password
 - 绘流程/UML/泳道图等:
   - https://www.processon.com
   - https://excalidraw.com
@@ -520,6 +520,45 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
   - 百度：https://naotu.baidu.com/
   - [xMind](https://xmind.cn/)
   - [MindMaster](https://www.mindmaster.io/)
+
+---
+level: 3
+layout: two-cols
+---
+
+- [Alfred](https://www.alfredapp.com/)
+  - Features:
+    - Quick Search
+    - Clipboard History
+  - Workflows:
+    - 快捷操作：Finder ↔️ Iterm, div
+    - API文档快查，如 mdn, httpcode
+    - 快捷展示：Colors, ip
+    - More:
+      - [awesome-alfred-workflows](https://github.com/alfred-workflows/awesome-alfred-workflows)
+      - [alfred-workflows-that-i-cant-live-without](https://pawelgrzybek.com/alfred-workflows-that-i-cant-live-without)
+
+::right::
+
+<img
+  class="w-60"
+  src="/images/alfred.jpeg"
+/>
+<img
+  v-click
+  class="w-100 mt--30"
+  src="/images/div.gif"
+/>
+<img
+  v-click
+  class="w-100 mt--40"
+  src="/images/mdn.gif"
+/>
+<img
+  v-click
+  class="w-40 mt--40 ml--70"
+  src="/images/cantwait.gif"
+/>
 
 ---
 transition: slide-up
