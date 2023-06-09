@@ -473,6 +473,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 - Dr. Axel Rauschmayer https://2ality.com/
 - Dan Abramov https://overreacted.io/
 - Eric Elliott https://medium.com/@_ericelliott
+- Wes Bos https://wesbos.com
 
 ---
 transition: slide-up
@@ -511,8 +512,8 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
     - 另外推荐 OmniGroup 其他软件：OmniFocus、OmniPlan等
 - 脑图：
   - 百度：https://naotu.baidu.com/
-  - mindX
-  - mindmaster
+  - [xMind](https://xmind.cn/)
+  - [MindMaster](https://www.mindmaster.io/)
 
 ---
 transition: slide-up
