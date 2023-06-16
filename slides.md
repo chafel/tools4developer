@@ -311,6 +311,7 @@ level: 3
 - Expand Region: <kbd>Ctrl + w</kbd>
 - Folding/Unfolding Block: <kbd>⌥ + ⌘ + [</kbd>/<kbd>⌥ + ⌘ + ]</kbd>
 - <kbd>Ctrl + c</kbd> Parenthesis Matches / Matching Pair / Closiong Tag
+- [Highlight cursor column](https://marketplace.visualstudio.com/items?itemName=freakone.cursoruler)
 - Go To Definition/References
 
 ---
@@ -457,14 +458,17 @@ level: 3
 ---
 
 ## Learning
-- https://www.codecademy.com/
-- https://www.coursera.org/courses?query=free
-- https://www.freecodecamp.org/
-- 网易云课堂 https://study.163.com/
+- [CodeCademy](https://www.codecademy.com/)
+- [Coursera](https://www.coursera.org/courses?query=free)
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [网易云课堂](https://study.163.com/)
 - 慕课/极客时间
-- 高校公开课： https://github.com/jackwener/CS-Awesome-Courses/blob/master/README.md
-  - 推荐 MIT - The Missing Semester of Your CS Education https://missing.csail.mit.edu/
-
+- [高校公开课](https://github.com/jackwener/CS-Awesome-Courses/blob/master/README.md)
+  - 推荐 MIT 的 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+<img
+  class="h-40 absolute top-20 right-40"
+  src="/images/learning.webp"
+/>
 ---
 transition: slide-up
 level: 4
@@ -486,15 +490,15 @@ transition: slide-up
 level: 4
 ---
 ### CSS
-- 大漠: https://www.w3cplus.com/
-- 一丝: https://github.com/yisibl/share
-- 张鑫旭: https://www.zhangxinxu.com/wordpress/category/css/
+- [大漠](https://www.w3cplus.com/)
+- [一丝](https://github.com/yisibl/share)
+- [张鑫旭](https://www.zhangxinxu.com/wordpress/category/css/)
 - https://codepen.io/trending
 - https://css-tricks.com/
 - CSS 游戏 by codepip：
-  - https://cssgridgarden.com/
-  - https://codepip.com/games/flexbox-froggy/
-- Design: https://www.csszengarden.com/pages/alldesigns/
+  - [grid 农场](https://cssgridgarden.com/)
+  - [flexbox 青蛙](https://codepip.com/games/flexbox-froggy/)
+- Design: [csszengarden](https://www.csszengarden.com/pages/alldesigns/)/[dribble](https://dribbble.com/tags/configuration%20panel)/[站酷](https://www.zcool.com.cn/)
 
 <img
   class="w-100 absolute top-15 right-10"
