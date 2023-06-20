@@ -167,7 +167,7 @@ transition: slide-up
 | /	| go to root |
 | ~	| go to home |
 
-  - `zsh_stats` LRU
+  - `zsh_stats` Frequency statistic
 ---
 transition: slide-up
 ---
@@ -185,7 +185,7 @@ transition: slide-up
 
 - More about changing directory
   - [j](https://github.com/wting/autojump)
-  - z
+  - [z](https://github.com/agkozak/zsh-z)
 
 
 ---
@@ -410,17 +410,17 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 ## Extensions
 
-- OneTab（配合 shortcuts）
+- OneTab（配合快捷键如`Cmd + e`快捷关闭后保存）
 - GoogleTranslate/Youdao
 - The great suspender -> 原生支持
 - 新浪微博图床
 - OctoTree -> 原生支持
 - 浏览器 Tab 分组
 - [vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb/related?hl=en-US)
-  - hjkl
-  - gg G
-  - HL
-  - JK
+  - jk: 快捷滚动
+  - gg G: 页面收尾
+  - HL: 前进后退
+  - JK: 标签页切换
 
 ---
 transition: slide-up

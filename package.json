@@ -2,8 +2,9 @@
   "name": "slidev",
   "private": true,
   "scripts": {
-    "build": "slidev build --base=/tools4developer/",
     "dev": "slidev --open",
+    "build": "slidev build --base=/tools4developer/",
+    "build:local": "slidev build",
     "export": "slidev export"
   },
   "dependencies": {
