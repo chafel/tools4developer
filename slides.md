@@ -64,6 +64,20 @@ ls -rSl | tail -n 3 | pbcopy
 pbpaste | head -n1
 ll | grep nest
 ```
+
+- `xargs` xargs translates arguments to commands. This effectively means you can run one command per argument, or forward all arguments to one command .
+``` bash
+cd ~/work/base
+ls | code
+ls | xargs code -
+ls | xargs code
+ls | xargs -L1 code
+```
+
+---
+transition: slide-up
+---
+
 - `>` overwirte output to a file:
 
 ```bash
@@ -513,6 +527,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 ## Tools
+- [Warp](https://app.warp.dev/referral/PX6PXZ): 带 AI 的命令行终端
 - ssh-copy-id: connect to hosts without any password
 - 绘流程/UML/泳道图等:
   - https://www.processon.com
