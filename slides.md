@@ -5,7 +5,7 @@ download: true
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -65,7 +65,7 @@ pbpaste | head -n1
 ll | grep nest
 ```
 
-- `xargs` xargs translates arguments to commands. This effectively means you can run one command per argument, or forward all arguments to one command .
+- `xargs` xargs translates arguments to commands. This effectively means you can run one command per argument, or forward all arguments to one command.
 ``` bash
 cd ~/work/base
 ls | code
@@ -268,7 +268,7 @@ preload: false
 transition: slide-up
 level: 2
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 ---
 
 # Editor
@@ -408,7 +408,7 @@ level: 3
 transition: fade-out
 level: 2
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1516383740770-fbcc5ccbece0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2148&q=80
 ---
 
 # Applications & WebSites
@@ -419,7 +419,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 transition: slide-up
 level: 3
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
 ---
 
 ## Extensions
@@ -487,7 +487,7 @@ level: 3
 transition: slide-up
 level: 4
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1608760000795-547e78bfc003?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1350&q=80
 ---
 ### Nodejs & JavaScript
 
@@ -523,7 +523,7 @@ level: 4
 transition: slide-up
 level: 3
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80
 ---
 
 ## Tools
@@ -583,7 +583,7 @@ layout: two-cols
 transition: slide-up
 level: 3
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80
 ---
 - 笔记：
   - The Programmer's Notebook: [Quiver](https://yliansoft.com/)
@@ -628,7 +628,7 @@ layout: two-cols
 level: 2
 transition: slide-up
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1606840342018-8f1c049681bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3376&q=80
 ---
 # More
 - Blog：
