@@ -38,15 +38,136 @@ As hackers, we spend a lot of time on our computers. So it makes sense to make t
 <a class="h-20" href="https://github.com/chafel/tools4developer" target="_blank" aria-label="View GitHub Repo" data-v-42e0901a=""><svg preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" width="1.2em" height="1.2em" data-v-42e0901a=""><path fill="currentColor" d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476c0-.237-.013-1.024-.013-1.862c-2.512.463-3.162-.612-3.362-1.175c-.113-.288-.6-1.175-1.025-1.413c-.35-.187-.85-.65-.013-.662c.788-.013 1.35.725 1.538 1.025c.9 1.512 2.338 1.087 2.912.825c.088-.65.35-1.087.638-1.337c-2.225-.25-4.55-1.113-4.55-4.938c0-1.088.387-1.987 1.025-2.688c-.1-.25-.45-1.275.1-2.65c0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337c1.912-1.3 2.75-1.024 2.75-1.024c.55 1.375.2 2.4.1 2.65c.637.7 1.025 1.587 1.025 2.687c0 3.838-2.337 4.688-4.562 4.938c.362.312.675.912.675 1.85c0 1.337-.013 2.412-.013 2.75c0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"></path></svg></a>
 </div>
 
+<!-- image: https://source.unsplash.com/collection/94734566/1920x1080 -->
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: https://images.unsplash.com/photo-1593278091708-261619ad2756?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2278&q=80
 ---
 
 # Table of contents
 
 <Toc minDepth="2" maxDepth="5"></Toc>
+
+---
+transition: slide-up
+level: 2
+layout: image-right
+image: https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
+---
+
+# Editor
+<Toc minDepth="3" maxDepth="5"></Toc>
+
+---
+transition: slide-up
+level: 3
+---
+## Actions
+
+  - [Emmet](https://emmet.io/) (原Zen Coding)
+
+  ```html {1|3-9|all}
+  (div#emmet>p.bar*4>ul.nameblock>li*5.list)+footer>a[href=meituan.com]{Click me}
+
+  <style>
+    #emmet{
+      m4-6
+      w100p
+      h100r
+    }
+  </style>
+  ```
+
+  - Multi Cursor
+    - <kbd>Cmd + d</kbd> ： 词的多选
+    - <kbd>Cmd + Click</kbd> or <kbd>鼠标中键</kbd> ：创建多个
+
+    <!-- ![MultiCursor](/images/multi_coursor.gif) -->
+
+    <img
+      v-click
+      class=""
+      src="/images/multi_coursor.gif"
+    />
+
+<style>
+.footnotes-sep {
+  @apply mt-20 opacity-10;
+}
+.footnotes {
+  @apply text-sm opacity-75;
+}
+.footnote-backref {
+  display: none;
+}
+</style>
+
+---
+transition: slide-up
+level: 3
+layout: image-right
+image: https://images.unsplash.com/photo-1621112943521-775623b0f651?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHw5NDczNDU2Nnx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60
+---
+- Folding/Unfolding Block
+  - <kbd>⌥ + ⌘ + [</kbd>/<kbd>⌥ + ⌘ + ]</kbd>
+- Parenthesis Matches / Matching Pair / Closiong Tag
+  - <kbd>Ctrl + c</kbd>
+- [Highlight cursor column](https://marketplace.visualstudio.com/items?itemName=freakone.cursoruler)
+- Go To Definition/References
+- 删除:
+  - <kbd>Ctrl-d</kbd> <kbd>Meta-d</kbd>
+  - Tips：在命令行中使用也很高效
+
+---
+transition: slide-up
+level: 3
+layout: image-right
+image: https://images.unsplash.com/photo-1498084393753-b411b2d26b34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3264&q=80
+---
+
+### Moving & Selecting
+- 行内移动:
+  - 按词: <kbd>Ctrl-f/b</kbd> <kbd>Meta-f/b</kbd>
+  - 首尾: <kbd>Ctrl-a</kbd> <kbd>Ctrl-e</kbd>
+    - 配合 <kbd>shift</kbd> 进行选中
+- 按行: <kbd>Ctrl-n</kbd> <kbd>Ctrl-p</kbd>
+- 翻页: <kbd>Ctrl-v</kbd> <kbd>Meta-v</kbd>
+- 跳到指定行: <kbd>Meta-g g</kbd>
+- 文件首尾: <kbd>Command-↑</kbd> <kbd>Command-↓</kbd>
+- Expand Region: <kbd>Ctrl + w</kbd>
+- 鼠标中键：多行光标和块级选择
+
+
+> Vim\Emacs Mode
+
+---
+transition: fade-out
+level: 3
+---
+
+## Font
+- 最低要求：monospace
+  <img
+      class="w-100"
+      src="/images/font.png"
+    />
+- 大家的选择：
+  - [ProgrammingFonts](https://github.com/ProgrammingFonts/ProgrammingFonts)
+  - [best-programming-fonts](https://kinsta.com/blog/best-programming-fonts/)
+- 我的选择：
+<div v-click>
+  <a
+    target="_blank"
+    href="https://github.com/tonsky/FiraCode">
+    FiraCode
+  </a>
+
+  <img
+    class="w-100 absolute top--3 right-10"
+    src="images/ligatures.png"
+  />
+</div>
 
 ---
 transition: slide-up
@@ -265,119 +386,6 @@ preload: false
 
 
 ---
-transition: slide-up
-level: 2
-layout: image-right
-image: https://images.unsplash.com/photo-1623282033815-40b05d96c903?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
----
-
-# Editor
-<Toc minDepth="3" maxDepth="5"></Toc>
-
----
-transition: slide-up
-level: 3
----
-## Actions
-
-  - [Emmet](https://emmet.io/) (原Zen Coding)
-
-  ```html {1|3-9|all}
-  (div#emmet>p.bar*4>ul.nameblock>li*5.list)+footer>a[href=meituan.com]{Click me}
-
-  <style>
-    #emmet{
-      m4-6
-      w100p
-      h100r
-    }
-  </style>
-  ```
-
-  - Multi Cursor
-    - <kbd>Cmd + d</kbd> ： 词的多选
-    - <kbd>Cmd + Click</kbd> or <kbd>鼠标中键</kbd> ：创建多个
-
-    <!-- ![MultiCursor](/images/multi_coursor.gif) -->
-
-    <img
-      v-click
-      class=""
-      src="/images/multi_coursor.gif"
-    />
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
----
-transition: slide-up
-level: 3
----
-- Expand Region: <kbd>Ctrl + w</kbd>
-- Folding/Unfolding Block: <kbd>⌥ + ⌘ + [</kbd>/<kbd>⌥ + ⌘ + ]</kbd>
-- <kbd>Ctrl + c</kbd> Parenthesis Matches / Matching Pair / Closiong Tag
-- [Highlight cursor column](https://marketplace.visualstudio.com/items?itemName=freakone.cursoruler)
-- Go To Definition/References
-
----
-transition: slide-up
-level: 3
----
-
-### Moving & Selecting
-- 行内移动:
-  - 按词: <kbd>Ctrl-f/b</kbd> <kbd>Meta-f/b</kbd>
-  - 首尾: <kbd>Ctrl-a</kbd> <kbd>Ctrl-e</kbd>
-    - 配合 <kbd>shift</kbd>
-- 按行: <kbd>Ctrl-n</kbd> <kbd>Ctrl-p</kbd>
-- 翻页: <kbd>Ctrl-v</kbd> <kbd>Meta-v</kbd>
-- 跳到指定行: <kbd>Meta-g g</kbd>
-- 文件首尾: <kbd>Command-↑</kbd> <kbd>Command-↓</kbd>
-- 删除: <kbd>Ctrl-d</kbd> <kbd>Meta-d</kbd>
-  - 同命令行
-- 鼠标中键：多行光标和块级选择
-
-
-> Vim\Emacs Mode
-
----
-transition: fade-out
-level: 3
----
-
-## Font
--最低要求：monospace
-  <img
-      class="w-100"
-      src="/images/font.png"
-    />
-- 大家的选择：
-  - [ProgrammingFonts](https://github.com/ProgrammingFonts/ProgrammingFonts)
-  - [best-programming-fonts](https://kinsta.com/blog/best-programming-fonts/)
-- 我的选择：
-<div v-click>
-  <a
-    target="_blank"
-    href="https://github.com/tonsky/FiraCode">
-    FiraCode
-  </a>
-
-  <img
-    class="w-100 absolute top--3 right-10"
-    src="https://github.com/tonsky/FiraCode/raw/master/extras/ligatures.png"
-  />
-</div>
-
----
 level: 2
 transition: slide-up
 ---
@@ -390,17 +398,15 @@ transition: slide-up
   - <kbd>Ctrl + Up</kbd> <kbd>Ctrl + Down</kbd>
 - 移除粘贴板文字格式：<kbd>Command + Shift + v</kbd>
 
----
-transition: fade-out
-level: 3
----
+
 - 神奇的 <kbd>Meta/option/Alt</kbd> 键
   - 在编辑器和命令行中的快捷跳转
 - 更少的离开键盘: Vim/Emacs 习惯
-- Switch <kbd>CapsLock</kbd> and <kbd>Ctrl</kbd>
+- 交换按键： <kbd>CapsLock</kbd> and <kbd>Ctrl</kbd>
+
 <img
   v-click
-  class="w-200"
+  class="w-140 ml-90 mt--90"
   src="/images/hhkb.png"
 />
 
@@ -513,6 +519,7 @@ level: 4
   - [grid 农场](https://cssgridgarden.com/)
   - [flexbox 青蛙](https://codepip.com/games/flexbox-froggy/)
 - Design: [csszengarden](https://www.csszengarden.com/pages/alldesigns/)/[dribble](https://dribbble.com/tags/configuration%20panel)/[站酷](https://www.zcool.com.cn/)
+- 个人项目样式快速编写神器：[tailwindcss](https://tailwindcss.com/)
 
 <img
   class="w-100 absolute top-15 right-10"
