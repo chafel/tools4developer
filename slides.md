@@ -165,7 +165,7 @@ level: 3
 
   <img
     class="w-100 absolute top--3 right-10"
-    src="images/ligatures.png"
+    src="/images/ligatures.png"
   />
 </div>
 
