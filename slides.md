@@ -305,6 +305,7 @@ transition: slide-up
   - `zsh_stats` Frequency statistic
 ---
 transition: slide-up
+layout: two-cols
 ---
 
   - `TAB` for completion
@@ -322,6 +323,13 @@ transition: slide-up
   - [j](https://github.com/wting/autojump)
   - [z](https://github.com/agkozak/zsh-z)
 
+::right::
+
+<img
+  v-click
+  class="w-860"
+  src="https://github.com/agkozak/zsh-z/raw/master/img/demo.gif"
+/>
 
 ---
 transition: slide-up
